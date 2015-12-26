@@ -48,6 +48,7 @@
 }
 .contentnamedate {
 	text-align: right;
+	font-style: italic;
 }
 .center, .centerlink {
 	text-align: center;
