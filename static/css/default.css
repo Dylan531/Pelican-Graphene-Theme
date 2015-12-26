@@ -38,7 +38,7 @@
     text-align: left;
     padding: 10px;
 }
-.archive {
+.archive, .tags {
 	text-align: center;
 }
 .highlight {
