@@ -1,10 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
     	<title>{% block title %}{{ SITENAME }}{% endblock %}</title>	
-    	<meta charset="utf-8" />
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    	<meta name="description" content="{{ DESCRIPTION }}">
+    	<meta name="description" content="{{ DESCRIPTION }}"/>
     	<meta property="og:site_name" content="{{ SITENAME}}" />
    		<meta property="og:locale" content="{{ DEFAULT_LANG }}" />
     	{% block meta_tags %}
@@ -13,8 +11,8 @@
     	<meta property="og:description" content=" {{ DESCRIPTION }}" />
     	<meta property="og:type" content="website" />
     	{% endblock meta_tags %}
-    	<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/default.css">
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/codehilite.css">
+    	<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/codehilite.css"/>
 	</head>
 	<body id="background">
 		<div id="main"> 
