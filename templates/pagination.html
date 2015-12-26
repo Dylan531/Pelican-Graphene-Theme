@@ -1,0 +1,8 @@
+{% if articles_page and articles_paginator.num_pages > 1 %}
+    {% if articles_page.has_previous() %}
+    		<div class="centerlink"><a href="{{ SITEURL }}/{{ articles_previous_page.url }}">Newer</a></div>
+    {% endif %}
+    {% if articles_page.has_next() %}
+			<div class="centerlink"><a  href="{{ SITEURL }}/{{ articles_next_page.url }}">Older</a></div>
+    {% endif %}
+{% endif %}
