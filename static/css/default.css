@@ -66,6 +66,9 @@
 .archive, .tags {
 	text-align: center;
 }
+.highlighttable {
+	width: 100%;
+}
 .highlight {
 	padding-left: 8px;
 	background-color: #f8f8f8;
