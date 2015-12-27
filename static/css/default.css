@@ -38,12 +38,15 @@
 	text-align: left;
 	padding: 10px;
 }
-.content, .centerarticle h1 {
+.centerarticle h1 {
 	border-bottom: 1px solid black;
 	margin: 0;
 	padding-bottom: 5px;
 }
 .content h1 {
+	border-bottom: 1px solid black;
+	margin: 0;
+	padding-bottom: 5px;
 	font-style: italic;
 }
 .archive, .tags {
