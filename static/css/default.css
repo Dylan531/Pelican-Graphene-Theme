@@ -14,13 +14,16 @@
 	font-family: Geneva, Arial, sans-serif;
 	width: 1100px;
 	margin: auto;
-	background-color: #FEFEFA;
+	background-color: #DEDEDE;
 }
 #disqus_thread {
+	padding: 5px;
+	border-radius: 4px;
 	margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
+    background-color: #F7F7F7;
 }
 .headerstretch {
 	border-top-right-radius: 20px;
@@ -31,15 +34,17 @@
 
 /* CLASSES FOR DISPLAYING CONTENT */
 .content, .centerarticle {
-	border-radius: 4px;
-	margin: 35px;
-	padding-left: 20px;
-	background-color: #D1E6E7;
-	display: block;
-	width: 700px;
-	text-align: left;
-	padding: 10px;
+    border-radius: 4px;
+    margin: 35px;
+    padding-left: 20px;
+    background-color: #F7F7F7;
+    display: block;
+    width: 700px;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid #ABAAAA;
 }
+
 .centerarticle {
 	width: 900px;
     margin-left: auto;
