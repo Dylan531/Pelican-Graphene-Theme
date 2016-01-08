@@ -67,9 +67,10 @@
 	text-align: center;
 }
 .highlighttable {
-	width: 100%;
+	width: 67%;
 }
 .highlight {
+	font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 	padding-left: 8px;
 	background-color: #f8f8f8;
 	border: 2px solid #E0E0E0;
