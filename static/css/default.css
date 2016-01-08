@@ -8,7 +8,7 @@
 	height: 100%;
 	background-repeat: no-repeat;
 	padding-top: 15px;
-    padding-bottom: 15px;
+    	padding-bottom: 15px;
 }
 #main {
 	border-top-left-radius: 20px;
@@ -22,10 +22,10 @@
 	padding: 5px;
 	border-radius: 4px;
 	margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
-    background-color: #F7F7F7;
+    	margin-left: auto;
+    	margin-right: auto;
+	width: 900px;
+    	background-color: #F7F7F7;
 }
 .headerstretch {
 	border-top-right-radius: 20px;
@@ -36,21 +36,21 @@
 
 /* CLASSES FOR DISPLAYING CONTENT */
 .content, .centerarticle {
-    border-radius: 4px;
-    margin: 35px;
-    padding-left: 20px;
-    background-color: #F7F7F7;
-    display: block;
-    width: 700px;
-    text-align: left;
-    padding: 10px;
-    border: 2px solid #ABAAAA;
+    	border-radius: 4px;
+    	margin: 35px;
+    	padding-left: 20px;
+    	background-color: #F7F7F7;
+    	display: block;
+    	width: 700px;
+    	text-align: left;
+    	padding: 10px;
+    	border: 2px solid #ABAAAA;
 }
 
 .centerarticle {
 	width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 .centerarticle h1 {
 	border-bottom: 1px solid black;
@@ -156,6 +156,7 @@
 }
 /* EVERYTHING BELOW IS FOOTER IDS */
 #footer {
+	border-top: 2px solid gray;
 	color:white;
 	height: 100px;
 	background-color: #171717;
