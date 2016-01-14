@@ -8,6 +8,6 @@
 {{ article.date.strftime('%d/%m/%Y') }}
 <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}{% if article.subtitle %} - {{ article.subtitle }}{% endif %}</a>
 </h3>
-</div>
 {% endfor %}
+</div>
 {% endblock %}
